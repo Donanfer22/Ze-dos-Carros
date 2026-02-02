@@ -67,7 +67,7 @@ const PoliticaCookies = () => {
                 Esses cookies coletam informações sobre como os visitantes usam nosso site, por exemplo, quais páginas são mais visitadas e se recebem mensagens de erro. Essas informações são usadas para melhorar o funcionamento do site. Todos os dados são agregados e anônimos.
               </p>
               <div className="bg-muted/50 rounded-lg p-4 mt-2">
-                <p className="text-sm"><strong>Exemplos:</strong> Google Analytics, ferramentas de monitoramento de desempenho.</p>
+                <p className="text-sm"><strong>Exemplos:</strong> ferramentas de análise e monitoramento de desempenho.</p>
                 <p className="text-sm mt-1"><strong>Duração:</strong> Até 2 anos.</p>
               </div>
 
@@ -96,7 +96,7 @@ const PoliticaCookies = () => {
                 Além dos cookies próprios do Zé do Rolo, alguns cookies podem ser definidos por terceiros quando você visita nosso site. Esses terceiros incluem:
               </p>
               <ul className="list-disc pl-6 space-y-2">
-                <li><strong>Google Analytics:</strong> para análise de tráfego e comportamento do usuário;</li>
+                <li><strong>Ferramentas de análise:</strong> para análise de tráfego e comportamento do usuário;</li>
                 <li><strong>Supabase:</strong> para autenticação e gerenciamento de sessão;</li>
                 <li><strong>Redes sociais:</strong> para funcionalidades de compartilhamento e login social;</li>
                 <li><strong>Serviços de pagamento:</strong> para processamento seguro de transações.</li>

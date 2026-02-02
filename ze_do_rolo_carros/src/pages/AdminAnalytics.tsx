@@ -40,7 +40,7 @@ import {
   AreaChart,
 } from "recharts";
 
-// Mock data - In production, this would come from Google Analytics API
+// Mock data - In production, this would come from an analytics API
 const trafficSourceData = [
   { name: "Direto", value: 45, color: "hsl(227, 66%, 24%)" },
   { name: "Orgânico", value: 30, color: "hsl(27, 100%, 61%)" },
@@ -85,7 +85,7 @@ const AdminAnalytics = () => {
   const [refreshing, setRefreshing] = useState(false);
   const [lastUpdate, setLastUpdate] = useState(new Date());
 
-  // Mock metrics - In production, these would come from Google Analytics
+  // Mock metrics - In production, these would come from an analytics API
   const [metrics, setMetrics] = useState({
     activeUsers: 35,
     totalViews: 4523,
@@ -462,7 +462,7 @@ const AdminAnalytics = () => {
         {/* Info Note */}
         <div className="mt-8 p-4 bg-muted/50 rounded-lg border border-border">
           <p className="text-sm text-muted-foreground text-center">
-            <strong>Nota:</strong> Para métricas em tempo real do Google Analytics, é necessário configurar a integração com a API do GA4.
+            <strong>Nota:</strong> Para métricas em tempo real, configure a integração com a API de análise desejada.
             Os dados exibidos são simulados para demonstração.
           </p>
         </div>
