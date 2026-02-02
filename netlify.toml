@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "ze_do_rolo_carros/dist"
+  publish = "dist"
   base = "ze_do_rolo_carros"
 
 [[redirects]]
