@@ -1,3 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "ze_do_rolo_carros/dist"
+  base = "ze_do_rolo_carros"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
